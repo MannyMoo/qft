@@ -55,7 +55,7 @@ inline _Tp zero(const _Tp &__var){(void)__var; return 0;}
 template <typename _Tp> inline _Tp conj(const _Tp &__var){return __var;}
 
 /// Return the imaginary part of the type (defaults to 0)
-template <typename _Tp> inline _Tp imag(const _Tp &__var){return 0;}
+template <typename _Tp> inline _Tp imag(const _Tp &){return 0;}
 
 /// Return @a unity for the type (defaults to numeric 1)
 template <typename _Tp> 
