@@ -656,7 +656,7 @@ template <typename T> inline Tensor<T> conj(const Tensor<T> &__tensor) {
 //_____________________________________________________________________________
 
 /// Returns a rank 0 tensor with value unity(_Tp)
-template <typename T> inline Tensor<T> unity(const Tensor<T> &__tensor) {
+template <typename T> inline Tensor<T> unity(const Tensor<T> &) {
   Tensor<T> ret(0);
   T var_type;
   ret() = unity(var_type);
