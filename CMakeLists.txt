@@ -32,7 +32,6 @@ include_directories(${Boost_INCLUDE_DIRS} ${ROOT_INCLUDE_DIRS})
 gaudi_add_library(QFTLib
                   src/*/*.C
                   src/*/*.tcc
-                  QFTDict_classdef.cpp
                   PUBLIC_HEADERS QFT
                   INCLUDE_DIRS Boost ROOT
                   LINK_LIBRARIES Boost ROOT)
